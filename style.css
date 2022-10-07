@@ -1,0 +1,9 @@
+header {
+    color:red;
+}
+
+table, table * {
+    border:solid black 2px;
+    border-collapse: collapse;
+}
+
