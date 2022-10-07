@@ -1,9 +1,22 @@
 header {
-    color:red;
+    text-align: center;
 }
 
 table, table * {
-    border:solid black 2px;
+    border:solid black 1px;
     border-collapse: collapse;
 }
 
+body {
+    font-family: Helvetica;
+}
+
+/*th[scope="row"] {
+  background-color: darkgray;
+  color: white;
+}*/
+
+.f {
+  background-color: darkgray;
+  grid-column: span 2;     /* <-- here is the trick */
+}
